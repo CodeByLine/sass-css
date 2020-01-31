@@ -25,6 +25,9 @@
 $bp-largest: 75em;   // break point=1200px
 $bp-large: 68.75em;   // break point: 1100 px
 $bp-medium: 56.25em;  // break point at 900px
+$bp-small: 37.5em;  // break point at 600px   600 / 16 = 37.5
+$bp-smallest: 31.25rem;
+
 
 
 * {
