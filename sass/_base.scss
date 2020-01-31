@@ -21,6 +21,11 @@
   --line: 1px solid var(--color-grey-light-2);
 }
 
+/////// media queries /////
+$bp-largest: 75em;   // break point=1200px
+$bp-large: 68.75em;   // break point: 1100 px
+$bp-medium: 56.25em;  // break point at 900px
+
 
 * {
   margin: 0;
@@ -38,6 +43,10 @@ html {
   box-sizing: border-box;
   font-size: 62.5%; 
   // rem = 10px/60px=62.5
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
 }
 
 body { 
